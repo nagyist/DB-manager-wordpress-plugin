@@ -239,7 +239,7 @@ if ( ! function_exists( 'bws_add_menu_render' ) ) {
 				'description'	=> 'Allows you to download the latest version of PhpMyadmin and Dumper and manage your site.',
 				'link'			=> 'http://bestwebsoft.com/plugin/db-manager/?k=01ed9731780d87f85f5901064b7d76d8&pn=' . $bws_plugin_info["id"] . '&v=' . $bws_plugin_info["version"] . '&wp_v=' . $wp_version,
 				'download'		=> 'http://bestwebsoft.com/plugin/db-manager/?k=01ed9731780d87f85f5901064b7d76d8&pn=' . $bws_plugin_info["id"] . '&v=' . $bws_plugin_info["version"] . '&wp_v=' . $wp_version . '#download',
-				'wp_install'	=> '/wp-admin/plugin-install.php?tab=search&s=DB+manager+BestWebSoft&plugin-search-input=Search+Plugins',
+				'wp_install'	=> 'http://bestwebsoft.com/plugin/db-manager/?k=01ed9731780d87f85f5901064b7d76d8&pn=' . $bws_plugin_info["id"] . '&v=' . $bws_plugin_info["version"] . '&wp_v=' . $wp_version . '#download',
 				'settings'		=> 'admin.php?page=db-manager.php'
 			)
 		);

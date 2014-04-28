@@ -175,7 +175,7 @@ if ( ! function_exists( 'dbmngr_register_plugin_links' ) ) {
 		$base = plugin_basename( __FILE__ );
 		if ( $file == $base ) {
 			$links[] = '<a href="admin.php?page=db-manager.php">' . __( 'Settings', 'dbmngr' ) . '</a>';
-			$links[] = '<a href="http://wordpress.org/plugins/db-manager/faq/" target="_blank">' . __( 'FAQ', 'dbmngr' ) . '</a>';
+			$links[] = '<a href="http://bestwebsoft.com/plugin/db-manager/#faq" target="_blank">' . __( 'FAQ', 'dbmngr' ) . '</a>';
 			$links[] = '<a href="http://support.bestwebsoft.com">' . __( 'Support', 'dbmngr' ) . '</a>';
 		}
 		return $links;
@@ -979,16 +979,6 @@ if ( ! function_exists( 'dbmngr_settings_page' ) ) {
 					</tr>
 				</table>
 			</form>
-			<div class="bws-plugin-reviews">
-				<div class="bws-plugin-reviews-rate">
-					<?php _e( 'If you enjoy our plugin, please give it 5 stars on WordPress', 'dbmngr' ); ?>: 
-					<a href="http://wordpress.org/support/view/plugin-reviews/db-manager" target="_blank" title="DB manager reviews"><?php _e( 'Rate the plugin', 'dbmngr' ); ?></a>
-				</div>
-				<div class="bws-plugin-reviews-support">
-					<?php _e( 'If there is something wrong about it, please contact us', 'dbmngr' ); ?>: 
-					<a href="http://support.bestwebsoft.com">http://support.bestwebsoft.com</a>
-				</div>
-			</div>
 		</div>
 	<?php }
 }
