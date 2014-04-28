@@ -1,0 +1,1127 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: db-manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-25 14:14+0300\n"
+"PO-Revision-Date: 2014-04-25 14:15+0300\n"
+"Last-Translator: bestwebsoft.com <plugins@bestwebsoft.com>\n"
+"Language-Team: bestwebsoft.com <plugin@bestwebsoft.com>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: db-manager.php:74
+msgid "DB manager Settings"
+msgstr "Установки DB manager"
+
+#: db-manager.php:74
+msgid "DB manager"
+msgstr "DB manager"
+
+#: db-manager.php:114
+msgid "requires"
+msgstr "портебує"
+
+#: db-manager.php:114
+msgid "or higher, that is why it has been deactivated! Please upgrade WordPress and try again."
+msgstr "чи вище, тому він був деактивований! Будь ласка, оновіть WordPress та спробуйте ще раз."
+
+#: db-manager.php:114
+msgid "Back to the WordPress"
+msgstr "Повернутися до WordPress на"
+
+#: db-manager.php:114
+msgid "Plugins page"
+msgstr "Сторінку плагінів"
+
+#: db-manager.php:165
+#: db-manager.php:177
+msgid "Settings"
+msgstr "Установки"
+
+#: db-manager.php:178
+msgid "FAQ"
+msgstr "Часті питання"
+
+#: db-manager.php:179
+msgid "Support"
+msgstr "Тех. підтримка"
+
+#: db-manager.php:200
+msgid "Check your internet connection!"
+msgstr "Перевірте підключення до Інтернет!"
+
+#: db-manager.php:293
+msgid "Create file Error! "
+msgstr "Помилка створення файлу!"
+
+#: db-manager.php:378
+msgid "Error: Unpacking failed!"
+msgstr "Не вдалося розпакувати!"
+
+#: db-manager.php:475
+msgid "Disable function does not work! File is not writable! "
+msgstr "Функція відключення не працює! Файл недоступний для запису!"
+
+#: db-manager.php:488
+#: db-manager.php:592
+msgid "Impossible to open the file! "
+msgstr "Неможливо відкрити файл!"
+
+#: db-manager.php:502
+msgid "Enable not work! File is not writable! "
+msgstr "Функція увімкнення не працює! Файл недоступний для запису!"
+
+#: db-manager.php:617
+#: db-manager.php:628
+#: db-manager.php:732
+msgid "Loading file Error!"
+msgstr "Помилака завантаження файлу"
+
+#: db-manager.php:624
+#: db-manager.php:756
+msgid "PhpMyadmin loaded successfully!"
+msgstr "PhpMyAdmin успішно завантажено!"
+
+#: db-manager.php:635
+#: db-manager.php:757
+msgid "Dumper loaded successfully!"
+msgstr "Dumper успішно завантажено!"
+
+#: db-manager.php:645
+msgid "PhpMyadmin deleted successfully!"
+msgstr "PhpMyAdmin успішно видалений! "
+
+#: db-manager.php:656
+msgid "Dumper deleted successfully!"
+msgstr "Dumper успвшно видалений!"
+
+#: db-manager.php:666
+msgid "PhpMyadmin disable!"
+msgstr "PhpMyAdmin відключено!"
+
+#: db-manager.php:676
+msgid "Dumper disable!"
+msgstr "Dumper відключено!"
+
+#: db-manager.php:690
+msgid "PhpMyadmin enable!"
+msgstr "PhpMyAdmin увімкнено!"
+
+#: db-manager.php:703
+msgid "Dumper enable!"
+msgstr "Dumper увімкнено!"
+
+#: db-manager.php:714
+msgid "Update file Error!"
+msgstr "Помилка при оновленні файлу!"
+
+#: db-manager.php:722
+#: db-manager.php:761
+msgid "Dumper update successfully!"
+msgstr "Dumper успішно оновлено!"
+
+#: db-manager.php:741
+#: db-manager.php:760
+msgid "PhpMyadmin update successfully!"
+msgstr "PhpMyAdmin успішно оновлено! "
+
+#: db-manager.php:758
+msgid "PhpMyadmin loaded incorrect!"
+msgstr "PhpMyAdmin завантажено невірно!"
+
+#: db-manager.php:759
+msgid "Dumper loaded incorrect!"
+msgstr "Dumper завантажено невірно!"
+
+#: db-manager.php:838
+#: db-manager.php:892
+#, php-format
+msgid "Please use username: <b>%s</b> and password: <b>%s</b> for login to system!"
+msgstr "Будь ласка, використовуйте логін: <b>%s</ b> та пароль: <b>%s </ b> для входу до системи!"
+
+#: db-manager.php:839
+#: db-manager.php:841
+#: db-manager.php:893
+#: db-manager.php:895
+msgid "Access"
+msgstr "Доступ"
+
+#: db-manager.php:849
+msgid "There is a new version of Dumper available:"
+msgstr "Доступна нова версія Dumper:"
+
+#: db-manager.php:849
+#: db-manager.php:903
+msgid "Update now"
+msgstr "Оновити"
+
+#: db-manager.php:855
+#: db-manager.php:865
+#: db-manager.php:908
+#: db-manager.php:917
+msgid "Download"
+msgstr "Завантажити"
+
+#: db-manager.php:858
+#: db-manager.php:910
+msgid "Delete"
+msgstr "Видалити"
+
+#: db-manager.php:860
+#: db-manager.php:912
+msgid "Disable access"
+msgstr "Відключити доступ"
+
+#: db-manager.php:862
+#: db-manager.php:914
+msgid "Enable access"
+msgstr "Включити доступ"
+
+#: db-manager.php:903
+msgid "There is a new version of PhpMyAdmin available:"
+msgstr "Доступна нова версія PhpMyAdmin:"
+
+#: db-manager.php:934
+msgid "Folder with plugin is not writable please give permission!"
+msgstr "Папка з плагіном недоступна для запису. Будь ласка, надайте права!"
+
+#: db-manager.php:938
+msgid "Curl support is disabled, contact the administrator of your server!"
+msgstr "Підтримка Curl вимкнена, зверніться до адміністратора вашого серверу!"
+
+#: db-manager.php:963
+msgid "DB manager settings"
+msgstr "Налаштування DB manager"
+
+#: db-manager.php:965
+msgid "Please enable JavaScript!"
+msgstr "Будь ласка, увімкніть JavaScript!"
+
+#: db-manager.php:973
+msgid "You can download PhpMyAdmin and Dumper from the official site!"
+msgstr "Ви можете завантажити PhpMyAdmin и Dumper с официального сайта!"
+
+#: db-manager.php:977
+msgid "PhpMyAdmin"
+msgstr "PhpMyAdmin"
+
+#: db-manager.php:986
+msgid "Dumper"
+msgstr "Dumper"
+
+#: db-manager.php:998
+msgid "If you enjoy our plugin, please give it 5 stars on WordPress"
+msgstr " Якщо вам сподобався плагін, будь ласка, оцініть його в п’ять зірочок на WordPress"
+
+#: db-manager.php:999
+msgid "Rate the plugin"
+msgstr "Оцінити плагін"
+
+#: db-manager.php:1002
+msgid "If there is something wrong about it, please contact us"
+msgstr "Якщо у вас виникли деякі питання, звертайнесь на"
+
+#~ msgid "Not set"
+#~ msgstr "Не задан"
+
+#~ msgid "On"
+#~ msgstr "Вкл"
+
+#~ msgid "Off"
+#~ msgstr "Выкл"
+
+#~ msgid "N/A"
+#~ msgstr "Неизвестно"
+
+#~ msgid " Mb"
+#~ msgstr "Mb"
+
+#~ msgid "Yes"
+#~ msgstr "Да"
+
+#~ msgid "No"
+#~ msgstr "Нет"
+
+#~ msgid "Operating System"
+#~ msgstr "Операционная система"
+
+#~ msgid "Server"
+#~ msgstr "Тип сервера"
+
+#~ msgid "Memory usage"
+#~ msgstr "Памяти использовано"
+
+#~ msgid "MYSQL Version"
+#~ msgstr "Версия MYSQL"
+
+#~ msgid "SQL Mode"
+#~ msgstr "Режим SQL"
+
+#~ msgid "PHP Version"
+#~ msgstr "Версия PHP"
+
+#~ msgid "PHP Safe Mode"
+#~ msgstr "PHP Safe Mode"
+
+#~ msgid "PHP Allow URL fopen"
+#~ msgstr "PHP Allow URL fopen"
+
+#~ msgid "PHP Memory Limit"
+#~ msgstr "Лимит памяти"
+
+#~ msgid "PHP Max Upload Size"
+#~ msgstr "Макс. размер загружаемого файла"
+
+#~ msgid "PHP Max Post Size"
+#~ msgstr "Макс. размер записи"
+
+#~ msgid "PHP Max Script Execute Time"
+#~ msgstr "Макс. время выполнения сценария"
+
+#~ msgid "PHP Exif support"
+#~ msgstr "Поддержка PHP Exif"
+
+#~ msgid "PHP IPTC support"
+#~ msgstr "Поддержка PHP IPTC"
+
+#~ msgid "PHP XML support"
+#~ msgstr "Поддержка PHP XML"
+
+#~ msgid "Site URL"
+#~ msgstr "Адрес сайта"
+
+#~ msgid "Home URL"
+#~ msgstr "Основной адрес сайта"
+
+#~ msgid "WordPress Version"
+#~ msgstr "Версия WordPress"
+
+#~ msgid "WordPress DB Version"
+#~ msgstr "Версия базы данных WordPress"
+
+#~ msgid "Multisite"
+#~ msgstr "Мультиблог"
+
+#~ msgid "Active Theme"
+#~ msgstr "Текущая тема"
+
+#~ msgid "Please enter a valid email address."
+#~ msgstr "Пожалуйста, введите валидный электронный адрес."
+
+#~ msgid "Email with system info is sent to "
+#~ msgstr "E-mail с системной информацией отправлен на"
+
+#~ msgid "Thank you for contacting us."
+#~ msgstr "Спасибо, что связались с нами."
+
+#~ msgid "Sorry, email message could not be delivered."
+#~ msgstr "Извините, ваше сообщение не может быть отправлено."
+
+#~ msgid "Plugins"
+#~ msgstr "Плагины"
+
+#~ msgid "System status"
+#~ msgstr "Системная информация"
+
+#~ msgid "Installed"
+#~ msgstr "Установлено %s"
+
+#~ msgid "Recommended"
+#~ msgstr "Рекомендованные к установке плагины"
+
+#~ msgid "Installed plugins"
+#~ msgstr "Установленные плагины"
+
+#~ msgid "Learn more"
+#~ msgstr "Подробнее..."
+
+#~ msgid "Activate this plugin"
+#~ msgstr "Активировать этот плагин"
+
+#~ msgid "Activate"
+#~ msgstr "Активировать"
+
+#~ msgid "Recommended plugins"
+#~ msgstr "Рекомендованные к установке плагины"
+
+#~ msgid "Install now"
+#~ msgstr "Установить сейчас"
+
+#~ msgid "Install %s"
+#~ msgstr "Установлено %s"
+
+#~ msgid "Install Now"
+#~ msgstr "Установить сейчас"
+
+#~ msgid "Update"
+#~ msgstr "Обновить"
+
+#~ msgid "Environment"
+#~ msgstr "Системная среда"
+
+#~ msgid "Active Plugins"
+#~ msgstr "Активированные плагины"
+
+#~ msgid "Inactive Plugins"
+#~ msgstr "Неактивированные плагины"
+
+#~ msgid "Send to support"
+#~ msgstr "Отправить в тех. поддержку"
+
+#~ msgid "Send to custom email &#187;"
+#~ msgstr "Отправить на емейл &#187;"
+
+#, fuzzy
+#~ msgid "Comments"
+#~ msgstr "Форма комментариев"
+
+#, fuzzy
+#~ msgid "Access denied"
+#~ msgstr "В доступе отказано"
+
+#, fuzzy
+#~ msgid "Last version"
+#~ msgstr "Последняя версия"
+
+#, fuzzy
+#~ msgid "Updated"
+#~ msgstr "Обновить"
+
+#, fuzzy
+#~ msgid "Status"
+#~ msgstr "Системная информация"
+
+#, fuzzy
+#~ msgid "active"
+#~ msgstr "Активированные плагины"
+
+#, fuzzy
+#~ msgid "Versions"
+#~ msgstr "Версия PHP"
+
+#, fuzzy
+#~ msgid "Thank you for submitting this report."
+#~ msgstr "Спасибо, что связались с нами."
+
+#, fuzzy
+#~ msgid "File could not be read"
+#~ msgstr "Файл не может быть прочитан"
+
+#, fuzzy
+#~ msgid "General Settings"
+#~ msgstr "Общие настройки"
+
+#, fuzzy
+#~ msgid "Appearance Settings"
+#~ msgstr "Настройки"
+
+#, fuzzy
+#~ msgid "More settings"
+#~ msgstr "Настройки"
+
+#, fuzzy
+#~ msgid "Server:"
+#~ msgstr "Тип сервера"
+
+#, fuzzy
+#~ msgid "Server type:"
+#~ msgstr "Тип сервера"
+
+#, fuzzy
+#~ msgid "Web server"
+#~ msgstr "Тип сервера"
+
+#, fuzzy
+#~ msgid "Database client version:"
+#~ msgstr "Версия клиента базы данных: "
+
+#, fuzzy
+#~ msgid "PHP extension:"
+#~ msgstr "Дополнение PHP"
+
+#, fuzzy
+#~ msgid "Get support"
+#~ msgstr "Отправить в тех. поддержку"
+
+#, fuzzy
+#~ msgid "Active options"
+#~ msgstr "Активные опции"
+
+#, fuzzy
+#~ msgid "recommended"
+#~ msgstr "Рекомендованные к установке плагины"
+
+#, fuzzy
+#~ msgid "Import"
+#~ msgstr "Импорт"
+
+#, fuzzy
+#~ msgid "The settings haven't been saved!"
+#~ msgstr "Настройки не сохранены"
+
+#, fuzzy
+#~ msgid "Export"
+#~ msgstr "Экспорт"
+
+#, fuzzy
+#~ msgid "Change"
+#~ msgstr "Сохранить изменения"
+
+#, fuzzy
+#~ msgid "Your SQL query has been executed successfully"
+#~ msgstr "Ваш SQL запрос был выполнен успешно!"
+
+#, fuzzy
+#~ msgid "Available MIME types"
+#~ msgstr "Доступные типы MIME"
+
+#, fuzzy
+#~ msgid "Available transformations"
+#~ msgstr "Доступные трансформации"
+
+#, fuzzy
+#~ msgid "The password is empty!"
+#~ msgstr "Пароль для дешифровки не установлен"
+
+#, fuzzy
+#~ msgid "The passwords aren't the same!"
+#~ msgstr "Пароли не совпадают"
+
+#, fuzzy
+#~ msgid "Operations"
+#~ msgstr "Операции"
+
+#, fuzzy
+#~ msgid "Please enter a valid number"
+#~ msgstr "Пожалуйста, введите корректное число"
+
+#, fuzzy
+#~ msgid "Please enter a valid length"
+#~ msgstr "Пожалуйста, введите корректную длину"
+
+#, fuzzy
+#~ msgid "Query cache usage"
+#~ msgstr "Памяти использовано"
+
+#, fuzzy
+#~ msgid "System CPU Usage"
+#~ msgstr "Системная информация"
+
+#, fuzzy
+#~ msgid "System swap"
+#~ msgstr "Системная информация"
+
+#, fuzzy
+#~ msgid "Enable %s"
+#~ msgstr "Включить доступ"
+
+#, fuzzy
+#~ msgid "Disable %s"
+#~ msgstr "Отключить доступ"
+
+#, fuzzy
+#~ msgid "Change settings"
+#~ msgstr "Настройки DB manager"
+
+#, fuzzy
+#~ msgid "Current settings"
+#~ msgstr "Настройки КАПЧИ"
+
+#, fuzzy
+#~ msgid "Recommendation"
+#~ msgstr "Рекомендованные к установке плагины"
+
+#, fuzzy
+#~ msgid "Deleting"
+#~ msgstr "Удалить"
+
+#, fuzzy
+#~ msgid "Generate password"
+#~ msgstr "Форма восстановления пароля"
+
+#, fuzzy
+#~ msgid "up to date"
+#~ msgstr "Обновить"
+
+#, fuzzy
+#~ msgid "Send Error Report"
+#~ msgstr "Отправить в тех. поддержку"
+
+#, fuzzy
+#~ msgid "Change Report Settings"
+#~ msgstr "Настройки КАПЧИ"
+
+#, fuzzy
+#~ msgid "November"
+#~ msgstr "Цифры"
+
+#, fuzzy
+#~ msgid "Jan"
+#~ msgstr "и"
+
+#, fuzzy
+#~ msgid "Nov"
+#~ msgstr "Нет"
+
+#, fuzzy
+#~ msgid "Mon"
+#~ msgstr "один"
+
+#, fuzzy
+#~ msgid "Minute"
+#~ msgstr "Минус (&minus;)"
+
+#, fuzzy
+#~ msgid "Server %d"
+#~ msgstr "Тип сервера"
+
+#, fuzzy
+#~ msgid "Right"
+#~ msgstr "восемь"
+
+#, fuzzy
+#~ msgid "Disabled"
+#~ msgstr "Отключить доступ"
+
+#, fuzzy
+#~ msgid "Update Query"
+#~ msgstr "Обновить"
+
+#, fuzzy
+#~ msgid "Del"
+#~ msgstr "Удалить"
+
+#, fuzzy
+#~ msgid "at least one of the words"
+#~ msgstr "Пожалуйста, заполните КАПЧУ."
+
+#, fuzzy
+#~ msgid "Number of rows:"
+#~ msgstr "Цифры"
+
+#, fuzzy
+#~ msgid "Mode:"
+#~ msgstr "Режим SQL"
+
+#, fuzzy
+#~ msgid "Options"
+#~ msgstr "Опции сохранены"
+
+#, fuzzy
+#~ msgid "No Password"
+#~ msgstr "Форма восстановления пароля"
+
+#, fuzzy
+#~ msgid "File to Import:"
+#~ msgstr "Отправить в тех. поддержку"
+
+#, fuzzy
+#~ msgid "Comment"
+#~ msgstr "Форма комментариев"
+
+#, fuzzy
+#~ msgid "Events"
+#~ msgstr "семьдесят"
+
+#, fuzzy
+#~ msgid "Persian"
+#~ msgstr "Версия PHP"
+
+#, fuzzy
+#~ msgid "Defragment table"
+#~ msgstr "Dumper включен!"
+
+#, fuzzy
+#~ msgid "Enabled"
+#~ msgstr "Включить доступ"
+
+#, fuzzy
+#~ msgid "Show master status"
+#~ msgstr "Системная информация"
+
+#, fuzzy
+#~ msgid "Master status"
+#~ msgstr "Системная информация"
+
+#, fuzzy
+#~ msgid "Slave status"
+#~ msgstr "Системная информация"
+
+#, fuzzy
+#~ msgid "Server ID"
+#~ msgstr "Тип сервера"
+
+#, fuzzy
+#~ msgid "Generate Password:"
+#~ msgstr "Форма восстановления пароля"
+
+#, fuzzy
+#~ msgid "Replication started successfully."
+#~ msgstr "PhpMyAdmin успешно загружен!"
+
+#, fuzzy
+#~ msgid "Replication stopped successfully."
+#~ msgstr "PhpMyAdmin успешно загружен!"
+
+#, fuzzy
+#~ msgid "Replication resetting successfully."
+#~ msgstr "PhpMyAdmin успешно удален! "
+
+#, fuzzy
+#~ msgid "Success."
+#~ msgstr "Доступ"
+
+#, fuzzy
+#~ msgid "Servers"
+#~ msgstr "Тип сервера"
+
+#, fuzzy
+#~ msgid "Sorting"
+#~ msgstr "Настройки"
+
+#, fuzzy
+#~ msgid "Show slave status"
+#~ msgstr "Системная информация"
+
+#, fuzzy
+#~ msgid "Enable Statistics"
+#~ msgstr "Включить доступ"
+
+#, fuzzy
+#~ msgid "Plugin"
+#~ msgstr "Pro плагины"
+
+#, fuzzy
+#~ msgid "Version"
+#~ msgstr "Версия PHP"
+
+#, fuzzy
+#~ msgid "disabled"
+#~ msgstr "Dumper отключен!"
+
+#, fuzzy
+#~ msgid "Administration"
+#~ msgstr "Настройки PhpMyAdmin!!!"
+
+#, fuzzy
+#~ msgid "Login Information"
+#~ msgstr "Форма логина"
+
+#, fuzzy
+#~ msgid "The selected users have been deleted successfully."
+#~ msgstr "Dumper успешно удален!"
+
+#, fuzzy
+#~ msgid "Deleting %s"
+#~ msgstr "Настройки"
+
+#, fuzzy
+#~ msgid "The privileges were reloaded successfully."
+#~ msgstr "Dumper успешно загружен!"
+
+#, fuzzy
+#~ msgid "max. concurrent connections"
+#~ msgstr " Проверьте подключение к Интернету!"
+
+#, fuzzy
+#~ msgid "Space usage"
+#~ msgstr "Памяти использовано"
+
+#, fuzzy
+#~ msgid "The columns have been moved successfully."
+#~ msgstr "Dumper успешно удален!"
+
+#, fuzzy
+#~ msgid "Reset zoom"
+#~ msgstr "Форма восстановления пароля"
+
+#, fuzzy
+#~ msgid "Table name"
+#~ msgstr "Включить доступ"
+
+#, fuzzy
+#~ msgid "Comment:"
+#~ msgstr "Форма комментариев"
+
+#, fuzzy
+#~ msgid "Activate tracking for %s"
+#~ msgstr "Активировать контакную форму"
+
+#, fuzzy
+#~ msgid "Activate now"
+#~ msgstr "Активированные плагины"
+
+#, fuzzy
+#~ msgid "Deactivate tracking for %s"
+#~ msgstr "Активировать контакную форму"
+
+#, fuzzy
+#~ msgid "Deactivate now"
+#~ msgstr "Активированные плагины"
+
+#, fuzzy
+#~ msgid "Show versions"
+#~ msgstr "Версия MYSQL"
+
+#, fuzzy
+#~ msgid "SQL dump"
+#~ msgstr "Режим SQL"
+
+#, fuzzy
+#~ msgid "SQL execution"
+#~ msgstr "Версия MYSQL"
+
+#, fuzzy
+#~ msgid "Manage your settings"
+#~ msgstr "Настройки DB manager"
+
+#, fuzzy
+#~ msgid "Dump table"
+#~ msgstr "Dumper включен!"
+
+#, fuzzy
+#~ msgid "Save on server"
+#~ msgstr "Тип сервера"
+
+#, fuzzy
+#~ msgid "Basic settings"
+#~ msgstr "Настройки DB manager"
+
+#, fuzzy
+#~ msgid "SQL queries settings"
+#~ msgstr "Настройки DB manager"
+
+#, fuzzy
+#~ msgid "Memory limit"
+#~ msgstr "Лимит памяти"
+
+#, fuzzy
+#~ msgid "Persistent connections"
+#~ msgstr " Проверьте подключение к Интернету!"
+
+#, fuzzy
+#~ msgid "Server port"
+#~ msgstr "Тип сервера"
+
+#, fuzzy
+#~ msgid "Signon URL"
+#~ msgstr "Адрес сайта"
+
+#, fuzzy
+#~ msgid "Server socket"
+#~ msgstr "Тип сервера"
+
+#, fuzzy
+#~ msgid "Show password change form"
+#~ msgstr "Форма восстановления пароля"
+
+#, fuzzy
+#~ msgid "Check for latest version"
+#~ msgstr " Проверьте подключение к Интернету!"
+
+#, fuzzy
+#~ msgid "The password for authenticating with the proxy"
+#~ msgstr "Пароль для шифрования не установлен"
+
+#, fuzzy
+#~ msgid "Proxy password"
+#~ msgstr "Форма восстановления пароля"
+
+#, fuzzy
+#~ msgid "Send error reports"
+#~ msgstr "Отправить в тех. поддержку"
+
+#, fuzzy
+#~ msgid "Busy pages"
+#~ msgstr "Pro плагины"
+
+#, fuzzy
+#~ msgid "Home"
+#~ msgstr "Основной адрес сайта"
+
+#, fuzzy
+#~ msgid "phpMyAdmin documentation"
+#~ msgstr "Настройки PhpMyAdmin!!!"
+
+#, fuzzy
+#~ msgid "Server Choice:"
+#~ msgstr "Тип сервера"
+
+#, fuzzy
+#~ msgid "Event"
+#~ msgstr "семьдесят"
+
+#, fuzzy
+#~ msgid "PHP Version:"
+#~ msgstr "Версия PHP"
+
+#, fuzzy
+#~ msgid "Constraints for table"
+#~ msgstr "Контактная форма"
+
+#, fuzzy
+#~ msgid "Add event"
+#~ msgstr "семьдесят"
+
+#, fuzzy
+#~ msgid "event"
+#~ msgstr "семьдесят"
+
+#, fuzzy
+#~ msgid "Please choose a page to edit"
+#~ msgstr "Пожалуйста, выберите то, что вы хотели бы удалить!"
+
+#, fuzzy
+#~ msgid "Plugin is disabled"
+#~ msgstr "Pro плагины"
+
+#, fuzzy
+#~ msgid "Insecure connection"
+#~ msgstr " Проверьте подключение к Интернету!"
+
+#, fuzzy
+#~ msgid "Configuration saved."
+#~ msgstr "Опции сохранены"
+
+#, fuzzy
+#~ msgid "New server"
+#~ msgstr "Тип сервера"
+
+#, fuzzy
+#~ msgid "phpMyAdmin homepage"
+#~ msgstr "PhpMyAdmin включен!"
+
+#, fuzzy
+#~ msgid "Show form"
+#~ msgstr "Форма логина"
+
+#~ msgid "Can not open file!"
+#~ msgstr "Не удается открыть файл!"
+
+#, fuzzy
+#~ msgid "Available new version : "
+#~ msgstr "Доступна новая версия: "
+
+#~ msgid "Purchase"
+#~ msgstr "Купить"
+
+#~ msgid "Install now from wordpress.org"
+#~ msgstr "Установить с wordpress.org"
+
+#~ msgid "Deleted folder does not exist or is a file!"
+#~ msgstr "Папки для удаления не существует или это файл! "
+
+#~ msgid "PhpMyAdmin is loaded: "
+#~ msgstr "PhpMyAdmin загружен: "
+
+#~ msgid "You are using the actual version PhpMyAdmin: "
+#~ msgstr "Вы используете актуальную версию PhpMyAdmin: "
+
+#~ msgid "Dumper is loaded: "
+#~ msgstr "Dumper загружен: "
+
+#~ msgid "You are using the actual version Dumper: "
+#~ msgstr "Вы используете актуальную версию Dumper: "
+
+#~ msgid "This option is available only in the pro version!"
+#~ msgstr "Эта опция доступна только в Pro версии!"
+
+#~ msgid "Please choose what you would like to download!"
+#~ msgstr "Пожалуйста, выберите то, что вы хотели бы скачать!"
+
+#~ msgid "PhpMyadmin and Dumper is not upload!"
+#~ msgstr "PhpMyadmin и Dumper не загружены!"
+
+#~ msgid "Please choose what you would like to off access!"
+#~ msgstr "Пожалуйста, выберите то, на что хотели бы закрыть доступ!"
+
+#~ msgid "Please choose what you would like to on access!"
+#~ msgstr "Пожалуйста, выберите то, на что хотели бы открыть доступ!"
+
+#~ msgid "Off access!"
+#~ msgstr "Выкл. доступ!"
+
+#~ msgid "Download."
+#~ msgstr "Система скачана."
+
+#~ msgid "PhpMyAdmin Settings"
+#~ msgstr "Настройки PhpMyAdmin"
+
+#~ msgid "Registration form"
+#~ msgstr "Форма регистрации"
+
+#~ msgid "Register form"
+#~ msgstr "Форма регистрации"
+
+#~ msgid "Hide CAPTCHA for registered users"
+#~ msgstr "Не отображать для зарегистрированных пользователей"
+
+#~ msgid "Plus (&#43;)"
+#~ msgstr "Плюс (&#43;)"
+
+#~ msgid "Plus"
+#~ msgstr "Плюс (&#43;)"
+
+#~ msgid "Minus (&minus;)"
+#~ msgstr "Минус (&minus;)"
+
+#~ msgid "Multiplication (&times;)"
+#~ msgstr "Умножение (&times;)"
+
+#~ msgid "Multiply"
+#~ msgstr "Умножить"
+
+#~ msgid "Words"
+#~ msgstr "Слова"
+
+#~ msgid "Captcha"
+#~ msgstr "КАПЧА"
+
+#~ msgid ""
+#~ "Please select one item in the block Arithmetic and Complexity for CAPTCHA"
+#~ msgstr ""
+#~ "Пожалуйста, выберите 1 пункт из блока Арифметические дейтсвия и Сложность "
+#~ "для КАПЧИ"
+
+#~ msgid "Enable CAPTCHA for:"
+#~ msgstr "Отображать КАПЧУ для:"
+
+#~ msgid "(powered by bestwebsoft.com)"
+#~ msgstr "(разработано компанией bestwebsoft.com)"
+
+#~ msgid "Download contact form"
+#~ msgstr "Скачать контактную форму"
+
+#~ msgid ""
+#~ "If you would like to customize this plugin for a custom form, please "
+#~ "contact us via"
+#~ msgstr ""
+#~ "Если вы хотите кастомизировать плагин для кастомной формы, обращайтесь на"
+
+#~ msgid "Title for CAPTCHA in the form"
+#~ msgstr "Заголовок для КАПЧИ в форме"
+
+#~ msgid "Arithmetic actions for CAPTCHA"
+#~ msgstr "Арифметические действия для КАПЧИ"
+
+#~ msgid "CAPTCHA complexity level"
+#~ msgstr "Уровень сложности КАПЧИ"
+
+#~ msgid "ERROR"
+#~ msgstr "Ошибка"
+
+#~ msgid "Please enter a valid CAPTCHA value."
+#~ msgstr "Пожалуйста, заполните КАПЧУ."
+
+#~ msgid ""
+#~ "Error: You have entered an incorrect CAPTCHA value. Click the BACK button "
+#~ "on your browser, and try again."
+#~ msgstr ""
+#~ "Ошибка: Вы ввели КАПЧУ неправильно. Надмите НАЗАД в браузере и попробуйте "
+#~ "еще раз"
+
+#~ msgid "zero"
+#~ msgstr "ноль"
+
+#~ msgid "two"
+#~ msgstr "два"
+
+#~ msgid "three"
+#~ msgstr "три"
+
+#~ msgid "four"
+#~ msgstr "четыре"
+
+#~ msgid "five"
+#~ msgstr "пять"
+
+#~ msgid "six"
+#~ msgstr "шесть"
+
+#~ msgid "seven"
+#~ msgstr "семь"
+
+#~ msgid "nine"
+#~ msgstr "девять"
+
+#~ msgid "eleven"
+#~ msgstr "одиннадцать"
+
+#~ msgid "twelve"
+#~ msgstr "двенадать"
+
+#~ msgid "thirteen"
+#~ msgstr "тринадцать"
+
+#~ msgid "fourteen"
+#~ msgstr "четырнадать"
+
+#~ msgid "fifteen"
+#~ msgstr "пятнадцать"
+
+#~ msgid "sixteen"
+#~ msgstr "шестнадцать"
+
+#~ msgid "seventeen"
+#~ msgstr "семнадцать"
+
+#~ msgid "eighteen"
+#~ msgstr "восемнадцать"
+
+#~ msgid "nineteen"
+#~ msgstr "девятнадцать"
+
+#~ msgid "ten"
+#~ msgstr "десять"
+
+#~ msgid "twenty"
+#~ msgstr "двадцать"
+
+#~ msgid "thirty"
+#~ msgstr "тридцать"
+
+#~ msgid "forty"
+#~ msgstr "сорок"
+
+#~ msgid "fifty"
+#~ msgstr "пятьдесят"
+
+#~ msgid "sixty"
+#~ msgstr "шестьдесят"
+
+#~ msgid "eighty"
+#~ msgstr "восемьдесят"
+
+#~ msgid "ninety"
+#~ msgstr "девяносто"
+
+#~ msgid "Encryption password is not set"
+#~ msgstr "Пароль для шифрования не установлен"
+
+#~ msgid ""
+#~ "If you have any questions, please contact us via plugin@bestwebsoft.com "
+#~ "or fill in the contact form on our website"
+#~ msgstr ""
+#~ "Если у вас есть какие-то впросы, обращайтесь на plugin@bestwebsoft.com "
+#~ "или заполните контактную форму на нашем сайте"
+
+#~ msgid "Increase"
+#~ msgstr "Умножить"
+
+#~ msgid "Difficulty for CAPTCHA"
+#~ msgstr "Уровень сложности КАПЧИ"
+
+#~ msgid "That CAPTCHA was incorrect."
+#~ msgstr "КАПЧА введена некорректно"
+
+#~ msgid "null"
+#~ msgstr "ноль"
