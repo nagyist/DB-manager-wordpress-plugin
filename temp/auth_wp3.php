@@ -1,5 +1,16 @@
 <?php
-$dbmngr_path = $_SERVER['DOCUMENT_ROOT'] . '/wp-config.php';
+/*$dbmngr_path = $_SERVER['DOCUMENT_ROOT'] . '/wp-config.php';*/
+$full_path = explode( '/', getcwd() );
+for ( $i=0; $i < count( $full_path ); $i++ ) {
+	if ( 0 == $i ) {
+		$path = $full_path[$i] . '/';
+	} else {
+		$path = $path . $full_path[$i] . '/';
+	}
+	if ( file_exists( $path . 'wp-config.php' ) )
+		$dbmngr_path = $path . 'wp-config.php';
+}
+
 $dbmngr_config = array();
 foreach( $_COOKIE AS $c => $v ) {
 	if ( strpos( $c, 'wordpress_logged_in' ) !== false ) {

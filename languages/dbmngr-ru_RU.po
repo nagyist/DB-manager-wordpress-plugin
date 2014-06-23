@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: db-manager\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-25 14:14+0300\n"
-"PO-Revision-Date: 2014-04-25 14:14+0300\n"
+"POT-Creation-Date: 2014-06-18 23:21+0300\n"
+"PO-Revision-Date: 2014-06-20 16:12+0300\n"
 "Last-Translator: bestwebsoft.com <plugins@bestwebsoft.com>\n"
 "Language-Team: bestwebsoft.com <plugin@bestwebsoft.com>\n"
 "Language: ru_RU\n"
@@ -13,43 +13,46 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.5.5\n"
+"X-Generator: Poedit 1.5.4\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: db-manager.php:74
+#: db-manager.php:75
 msgid "DB manager Settings"
 msgstr "Настройки DB manager"
 
-#: db-manager.php:74
+#: db-manager.php:75
 msgid "DB manager"
 msgstr "DB manager"
 
-#: db-manager.php:114
+#: db-manager.php:115
 msgid "requires"
 msgstr "требуется"
 
-#: db-manager.php:114
-msgid "or higher, that is why it has been deactivated! Please upgrade WordPress and try again."
-msgstr "или выше, поэтому плагин был деактивирован! Обновите WordPress и повторите попытку."
+#: db-manager.php:115
+msgid ""
+"or higher, that is why it has been deactivated! Please upgrade WordPress and "
+"try again."
+msgstr ""
+"или выше, поэтому плагин был деактивирован! Обновите WordPress и повторите "
+"попытку."
 
-#: db-manager.php:114
+#: db-manager.php:115
 msgid "Back to the WordPress"
 msgstr "Вернутся назад на"
 
-#: db-manager.php:114
+#: db-manager.php:115
 msgid "Plugins page"
 msgstr "Pro плагины"
 
-#: db-manager.php:165
-#: db-manager.php:177
+#: db-manager.php:166 db-manager.php:178 db-manager.php:954
 msgid "Settings"
 msgstr "Настройки"
 
-#: db-manager.php:178
+#: db-manager.php:179 db-manager.php:955
 msgid "FAQ"
 msgstr "FAQ"
 
-#: db-manager.php:179
+#: db-manager.php:180
 msgid "Support"
 msgstr "Поддержка"
 
@@ -57,40 +60,39 @@ msgstr "Поддержка"
 msgid "Check your internet connection!"
 msgstr "Проверьте подключение к Интернету!"
 
-#: db-manager.php:293
+#: db-manager.php:292
 msgid "Create file Error! "
 msgstr "Ошибка создания файла!"
 
-#: db-manager.php:378
-msgid "Error: Unpacking failed!"
-msgstr "Не удалась распаковать!"
+#: db-manager.php:377
+msgid "Error: Extracting failed!"
+msgstr "Не удалось извлечь!"
 
-#: db-manager.php:475
+#: db-manager.php:379
+msgid "Error: Unpacking failed!"
+msgstr "Не удалось распаковать!"
+
+#: db-manager.php:476
 msgid "Disable function does not work! File is not writable! "
 msgstr "Отключение не работает! Файл не доступен для записи!"
 
-#: db-manager.php:488
-#: db-manager.php:592
+#: db-manager.php:489 db-manager.php:593
 msgid "Impossible to open the file! "
 msgstr "Не удается открыть файл!"
 
-#: db-manager.php:502
+#: db-manager.php:503
 msgid "Enable not work! File is not writable! "
 msgstr "Включение не работает! Файл недоступен для записи!"
 
-#: db-manager.php:617
-#: db-manager.php:628
-#: db-manager.php:732
+#: db-manager.php:617 db-manager.php:628 db-manager.php:732
 msgid "Loading file Error!"
 msgstr "Ошибка загрузки файла!"
 
-#: db-manager.php:624
-#: db-manager.php:756
+#: db-manager.php:624 db-manager.php:756
 msgid "PhpMyadmin loaded successfully!"
 msgstr "PhpMyAdmin успешно загружен!"
 
-#: db-manager.php:635
-#: db-manager.php:757
+#: db-manager.php:635 db-manager.php:757
 msgid "Dumper loaded successfully!"
 msgstr "Dumper успешно загружен!"
 
@@ -122,13 +124,11 @@ msgstr "Dumper включен!"
 msgid "Update file Error!"
 msgstr "Ошибка при обновление файла!"
 
-#: db-manager.php:722
-#: db-manager.php:761
+#: db-manager.php:722 db-manager.php:761
 msgid "Dumper update successfully!"
 msgstr "Dumper успешно обновлен!"
 
-#: db-manager.php:741
-#: db-manager.php:760
+#: db-manager.php:741 db-manager.php:760
 msgid "PhpMyadmin update successfully!"
 msgstr "PhpMyAdmin успешно обновлен! "
 
@@ -140,93 +140,82 @@ msgstr "PhpMyAdmin загружен ненравильно!"
 msgid "Dumper loaded incorrect!"
 msgstr "Dumper загружен неправильно!"
 
-#: db-manager.php:838
-#: db-manager.php:892
+#: db-manager.php:833 db-manager.php:883
 #, php-format
-msgid "Please use username: <b>%s</b> and password: <b>%s</b> for login to system!"
-msgstr "Пожалуйста, используйте логин: <b>%s</ b> и пароль: <b>%s </ b> для входа в систему!"
+msgid ""
+"Please use username: <b>%s</b> and password: <b>%s</b> for login to system!"
+msgstr ""
+"Пожалуйста, используйте логин: <b>%s</ b> и пароль: <b>%s </ b> для входа в "
+"систему!"
 
-#: db-manager.php:839
-#: db-manager.php:841
-#: db-manager.php:893
-#: db-manager.php:895
+#: db-manager.php:834 db-manager.php:836 db-manager.php:884 db-manager.php:886
 msgid "Access"
 msgstr "Доступ"
 
-#: db-manager.php:849
+#: db-manager.php:844
 msgid "There is a new version of Dumper available:"
 msgstr "Доступна новая версия Dumper:"
 
-#: db-manager.php:849
-#: db-manager.php:903
+#: db-manager.php:844 db-manager.php:894
 msgid "Update now"
 msgstr "Обновить"
 
-#: db-manager.php:855
-#: db-manager.php:865
-#: db-manager.php:908
-#: db-manager.php:917
+#: db-manager.php:850 db-manager.php:860 db-manager.php:899 db-manager.php:908
 msgid "Download"
 msgstr "Скачать"
 
-#: db-manager.php:858
-#: db-manager.php:910
+#: db-manager.php:853 db-manager.php:901
 msgid "Delete"
 msgstr "Удалить"
 
-#: db-manager.php:860
-#: db-manager.php:912
+#: db-manager.php:855 db-manager.php:903
 msgid "Disable access"
 msgstr "Отключить доступ"
 
-#: db-manager.php:862
-#: db-manager.php:914
+#: db-manager.php:857 db-manager.php:905
 msgid "Enable access"
 msgstr "Включить доступ"
 
-#: db-manager.php:903
+#: db-manager.php:894
 msgid "There is a new version of PhpMyAdmin available:"
 msgstr "Доступна новая версия PhpMyAdmin:"
 
-#: db-manager.php:934
+#: db-manager.php:923
 msgid "Folder with plugin is not writable please give permission!"
 msgstr "Папка с плагином не доступна для записи, пожалуйста, дайте разрешение!"
 
-#: db-manager.php:938
+#: db-manager.php:927
 msgid "Curl support is disabled, contact the administrator of your server!"
 msgstr "Поддержка Curl отключена , обратитесь к администратору вашего сервера!"
 
-#: db-manager.php:963
+#: db-manager.php:952
 msgid "DB manager settings"
 msgstr "Настройки DB manager"
 
-#: db-manager.php:965
+#: db-manager.php:958
 msgid "Please enable JavaScript!"
 msgstr "Включите JavaScript!"
 
-#: db-manager.php:973
+#: db-manager.php:966
 msgid "You can download PhpMyAdmin and Dumper from the official site!"
 msgstr "Вы можете скачать PhpMyAdmin и Dumper с официального сайта!"
 
-#: db-manager.php:977
+#: db-manager.php:970
 msgid "PhpMyAdmin"
 msgstr "PhpMyAdmin"
 
-#: db-manager.php:986
+#: db-manager.php:979
 msgid "Dumper"
 msgstr "Dumper"
 
-#: db-manager.php:998
-msgid "If you enjoy our plugin, please give it 5 stars on WordPress"
-msgstr " Если вам понравился плагин, то поставьте нам 5 звезд на WordPress"
+#~ msgid "If you enjoy our plugin, please give it 5 stars on WordPress"
+#~ msgstr " Если вам понравился плагин, то поставьте нам 5 звезд на WordPress"
 
-#: db-manager.php:999
-msgid "Rate the plugin"
-msgstr "Бесплатные плагины"
+#~ msgid "Rate the plugin"
+#~ msgstr "Бесплатные плагины"
 
-#: db-manager.php:1002
-msgid "If there is something wrong about it, please contact us"
-msgstr "Если у вас есть какие-то впросы, обращайтесь на"
+#~ msgid "If there is something wrong about it, please contact us"
+#~ msgstr "Если у вас есть какие-то впросы, обращайтесь на"
 
 #~ msgid "Can not open file! "
 #~ msgstr "Не удается открыть файл!"

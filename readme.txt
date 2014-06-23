@@ -1,10 +1,10 @@
 === DB manager ===
 Contributors: bestwebsoft
 Donate link: https://www.2checkout.com/checkout/purchase?sid=1430388&quantity=1&product_id=94
-Tags: phpMyadmin, download, update, delete, Dumper, htpasswd, htaccess, database, mysql, ajax.
+Tags: ajax, control acess to systems, BD Manager, database, DB manager, DB manager plugin, DB meneger, DB manadger, DB menager, DB managar, delete, delete Dumper, delete phpMyadmin, download, download Dumper, download phpMyadmin, Dumper, htaccess, htpasswd, mysql, phpMyadmin, update, update Dumper, update link, update phpMyadmin
 Requires at least: 3.0.1
-Tested up to: 3.9
-Stable tag: 1.0.0
+Tested up to: 3.9.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,7 +14,10 @@ The DB manager plugin allows you to download the latest version of PhpMyadmin an
 
 With the help of this plugin you can easily download the latest version of PhpMyadmin or Dumper from the official site of the developer, both systems will be under the protection, and no one but you will be able to access it. Using this plugin you can control the access to the systems, download, delete them. You will be informed of the new version of PhpMyadmin or Dumper and be able to upgrade to the recent version by clicking the Update link.
 
+http://www.youtube.com/watch?v=UFnLP9RGhEE
+
 <a href="http://bestwebsoft.com/plugin/db-manager/#faq" target="_blank">FAQ</a>
+
 <a href="http://support.bestwebsoft.com" target="_blank">Support</a>
 
 = Features =
@@ -89,11 +92,26 @@ Please make sure that the problem hasn't been discussed yet on our forum (<a hre
 
 == Changelog ==
 
-= V1.0 - 11.04.2014 = 
+= V1.0.2 - 20.06.2014 =
+* Bugfix : Problem with downloading PhpMyAdmin was fixed.
+* Bugfix : Problem with disk qouta warning was fixed.
+* Bugfix : Problem with getting configurations from wp-config was fixed.
+
+= V1.0.1 - 11.04.2014 =
+* Update : We updated all functionality for wordpress 3.9.1.
+* Bugfix : Error with warning about disk quota exceeded was fixed.
+
+= V1.0.0 - 11.04.2014 = 
 * Bugfix : The code refactoring was performed.
 * NEW : Css-style was added.
 
 == Upgrade Notice ==
 
-= V1.0 =
+= V1.0.2 =
+Problem with downloading PhpMyAdmin was fixed. Problem with disk qouta warning was fixed. Problem with getting configurations from wp-config was fixed.
+
+= V1.0.1 =
+We updated all functionality for wordpress 3.9.1. Error with warning about disk quota exceeded was fixed.
+
+= V1.0.0 =
 The code refactoring. Css-style was added.

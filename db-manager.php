@@ -4,7 +4,7 @@ Plugin Name: DB manager
 Plugin URI: http://bestwebsoft.com/plugin/
 Description: The DB manager plugin allows you to download the latest version of PhpMyadmin and Dumper and manage your site.
 Author: BestWebSoft
-Version: 1.0.0
+Version: 1.0.2
 Author URI: http://bestwebsoft.com/
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -30,7 +30,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 if ( ! function_exists( 'dbmngr_add_admin_menu' ) ) {
 	function dbmngr_add_admin_menu() {
 		global $bstwbsftwppdtplgns_options, $wpmu, $bstwbsftwppdtplgns_added_menu;
-		$bws_menu_version = get_plugin_data( plugin_dir_path( __FILE__ ) . "bws_menu/bws_menu.php" )["Version"];
+		$bws_menu_info = get_plugin_data( plugin_dir_path( __FILE__ ) . "bws_menu/bws_menu.php" );
+		$bws_menu_version = $bws_menu_info["Version"];
 		$base = plugin_basename( __FILE__ );
 
 		if ( ! isset( $bstwbsftwppdtplgns_options ) ) {
@@ -370,8 +371,10 @@ if ( ! function_exists( 'dbmngr_unzip_new_catalog' ) ) {
 		$dbmngr_zip = new ZipArchive;
 		$dbmngr_res = $dbmngr_zip->open( plugin_dir_path( __FILE__ ) . $dbmngr_input_name );
 		if ( $dbmngr_res === true ) {
-			$dbmngr_zip->extractTo( plugin_dir_path( __FILE__ ) . $dbmngr_output_name . '/' . $dbmngr_new_name_catalog );
-			$dbmngr_zip->close();
+			if ( $dbmngr_zip->extractTo( plugin_dir_path( __FILE__ ) . $dbmngr_output_name . '/' . $dbmngr_new_name_catalog ) )
+				$dbmngr_zip->close();
+			else
+				$dbmngr_error = __( 'Error: Extracting failed!', 'dbmngr' );
 		} else {
 			$dbmngr_error = __( 'Error: Unpacking failed!', 'dbmngr' );
 		}
@@ -436,7 +439,13 @@ if ( ! function_exists( 'dbmngr_download_phpmyadmin' ) ) {
 		}
 		/* Check file exist */
 		$dbmngr_temp = dbmngr_pma_get_href_parser( $dbmngr_target_url );
-		$dbmngr_str = substr( $dbmngr_temp, 67, 31 );
+		$path = explode( '/', $dbmngr_temp );
+		foreach ( $path as $path ) {
+			if ( strpos( $path, '.zip' ) ) {
+				$dbmngr_str = ( basename( $path, ".zip" ) );
+				break;
+			}
+		}
 		if ( is_dir( plugin_dir_path( __FILE__ ) . 'phpmyadmin/' . $dbmngr_new_name_catalog . '/' . $dbmngr_str ) ) {
 			/* Add config phpmyadmin */
 			$start_dir = plugin_dir_path( __FILE__ ) . 'temp/config.inc.php';
@@ -868,7 +877,13 @@ if ( ! function_exists ( 'dbmngr_show_phpmyadmin' ) ) {
 		/* Set links to phpmyadmin */
 		$dbmngr_target_url = 'http://www.phpmyadmin.net/home_page/index.php';
 		$dbmngr_temp = dbmngr_pma_get_href_parser( $dbmngr_target_url );
-		$dbmngr_str = substr( $dbmngr_temp, 67, 31 );
+		$path = explode( '/', $dbmngr_temp );
+		foreach ( $path as $path ) {
+			if ( strpos( $path, '.zip' ) ) {
+				$dbmngr_str = ( basename( $path, ".zip" ) );
+				break;
+			}
+		}
 		if ( file_exists( plugin_dir_path( __FILE__ ) . 'phpmyadmin' ) ) {
 			$dbmngr_site_url = plugins_url();;
 			$dbmngr_site_name = substr( $dbmngr_site_url , 7 );
@@ -947,6 +962,10 @@ if ( ! function_exists( 'dbmngr_settings_page' ) ) {
 		<div class="wrap">
 			<div class="icon32 icon32-bws" id="icon-options-general"></div>
 			<h2><?php _e( 'DB manager settings', 'dbmngr' ); ?></h2>
+			<h2 class="nav-tab-wrapper">
+				<a class="nav-tab<?php if ( ! isset( $_GET['action'] ) ) echo ' nav-tab-active'; ?>" href="admin.php?page=db-manager.php"><?php _e( 'Settings', 'dbmngr' ); ?></a>
+				<a class="nav-tab" href="http://bestwebsoft.com/plugin/db-manager/#faq" target="_blank" ><?php _e( 'FAQ', 'dbmngr' ); ?></a>
+			</h2>
 			<noscript>			
 				<div class="error"><p><strong><?php _e( 'Please enable JavaScript!', 'dbmngr' ); ?></strong></p></div>
 			</noscript> 
